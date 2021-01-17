@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import photo from './hero.jpg';
+import photo from './davi_golias.jpg';
 
 export const Container = styled.div`
   margin: 0;

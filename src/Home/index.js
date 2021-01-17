@@ -20,32 +20,32 @@ function Home() {
     tl.fromTo(bigtextRef.current, { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
   }, []);
 
-  
+
   return (
     <Container>
       <main>
         <Landing>
           <nav>
-            <Logo>Afloat</Logo>
+            <Logo>Profundo</Logo>
               <NavLinks>
                 <li>Home</li>
                 <li>Contatos</li>
                 <li>Sobre</li>
               </NavLinks>
-              <BigText ref={bigtextRef}>Mergulhe fundo</BigText>
+              <BigText ref={bigtextRef}>Seja Ousado</BigText>
           </nav> 
         </Landing>        
       </main>
       <Intro ref={introRef}>
         <IntroText>
           <Hide>
-            <span className="text">Creating inovation</span>
+            <span className="text">Seja inovador</span>
           </Hide>
           <Hide>
-            <span className="text">For Everyday</span>
+            <span className="text">Faça a diferença</span>
           </Hide>
           <Hide>
-            <span className="text">people</span>
+            <span className="text">Dê seu melhor</span>
           </Hide>
         </IntroText>
       </Intro>
