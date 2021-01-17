@@ -13,9 +13,9 @@ function Home() {
   useEffect(()=>{
     const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
-    tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
+    tl.to(".text", { y: "0%", duration: 2, stagger: 0.25 });
     tl.to(sliderRef.current, { y: "-100%", duration: 1, delay: 0.5 });
-    tl.to(introRef.current, { y: "-100%", duration: 1 }, "-=1");
+    tl.to(introRef.current, { y: "-100%", duration: 1.5 }, "-=1");
     tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
     tl.fromTo(bigtextRef.current, { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
   }, []);
