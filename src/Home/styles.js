@@ -49,6 +49,8 @@ export const BigText = styled.h2`
   font-size: 5rem;
   font-family: "Lobster", cursive;
   color: rgb(61, 61, 61);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #6E6E6E;
 `;
 
 export const Intro = styled.div`
